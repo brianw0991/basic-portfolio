@@ -1,0 +1,13 @@
+
+body {
+    background: #DCE6B2; 
+}
+
+header {
+    background: #2C3B5A;
+    color: #C0D19A;
+    text-decoration: underline;
+    text-align: center;
+    height: 100px;
+    margin-top: 0;
+}
