@@ -1,37 +1,67 @@
 
 body {
-    background: #F3F2D7; 
+    background: black;
 }
 
 header {
-    background: #FF1500;
-    color: #4A4747;
-    text-decoration: underline;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    width: 150px;
+    height: 50px;
     text-align: center;
-    height: 20%;
-}
-.buttonContainer {
-    color: #F3F2D7;
-    
+    margin-top: 2px;
+    line-height: 50px;
 }
 
-.contacts {
-    background: #AC2418;
-    border: 3px solid #4A4747;
-    width: 32%;
+ul li:hover {
+    Background: #4aaaa5;
+    color: #ffffff;
+}
+
+ul li {
+    background: #ffffff;
+    display: inline-block;
+    margin: 0px;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container{
+    clear: both;
+    background-color:#ffffff;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#brianImage {
     float: left;
 }
 
-.profiles {
-    background: #AC2418;
-    border: 3px solid #4A4747;
-    width: 33%;
-    float: left;
+#pOne {
+    margin-top: 100px;
 }
 
-.projects {
-    background: #AC2418;
-    border: 3px solid #4A4747;
-    width: 32%;
-    float: right;
+p {
+    margin-bottom: 40px;
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    margin-bottom: 0px;
 }
