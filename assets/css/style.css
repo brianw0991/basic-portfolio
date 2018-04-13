@@ -1,15 +1,27 @@
 
+
+html {
+    height: 100%;
+}
+
 body {
-    background: black;
+    background-image: url("../images/random_grey_variations.png");
+    min-height: 100%;
+    position: relative;
 }
 
 header {
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    border-top: 4px solid #ffffff;
 
 }
 
 h1{
+    position: relative;
+    left: 195px;
+    top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #4aaaa5;
     width: 150px;
@@ -19,9 +31,14 @@ h1{
     line-height: 50px;
 }
 
+ul {
+    position: absolute;
+    right: 193px;
+    top: 0px;
+}
+
 ul li:hover {
     Background: #4aaaa5;
-    color: #ffffff;
 }
 
 ul li {
@@ -34,34 +51,151 @@ ul li {
     line-height: 50px;
 }
 
+ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+
 .container{
-    clear: both;
     background-color:#ffffff;
     width: 960px;
     height: 100%;
     margin: 0 auto;
-    margin-top: 0;
+    margin-top: 30px;
+
+    
 }
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    padding: 20px;
+    font-weight: bold;
+    font-size: 26px;
 }
 
 #brianImage {
     float: left;
+    margin: 20px;
 }
 
-#pOne {
+#picOne {
     margin-top: 100px;
 }
 
 p {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 footer {
     clear: both;
     background: #666666;
     margin-bottom: 0px;
+    height: 50px;
+    position: absolute;
+    left:0; right:0; bottom:0;
+    text-align: center;
+    line-height: 50px;
+    border-top: 4px solid #4aaaa5;
+}
+
+input {
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+#subBtn {
+    width: 75px;
+    margin-left: 20px;
+}
+
+#hangman{
+    position: absolute;
+    top: 180px;
+    left: 215px;
+}
+
+#trivia {
+    position: absolute;
+    top: 325px;
+    left: 215px;
+}
+
+#rock {
+    position: absolute;
+    top: 470px;
+    left:215px;
+}
+
+#role {
+    position: absolute;
+    top: 180px;
+    left: 360px;
+}
+
+#widget {
+    position: absolute;
+    top: 325px;
+    left: 360px;
+}
+
+#hanTex {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 275px;
+    left: 195px;
+}
+
+#triTex {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    left: 195px;
+}
+
+#roTex {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    height: 32px;
+    text-align: center;
+    position: absolute;
+    top: 558px;
+    left: 195px;
+    font-size: 16px;
+}
+
+#rpgTex{
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 275px;
+    left: 340px;
+}
+
+#widTex {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    left: 340px;
 }
