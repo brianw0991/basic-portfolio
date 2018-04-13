@@ -46,7 +46,7 @@ ul li {
     display: inline-block;
     margin: 0px;
     width: 75px;
-    height: 50px;
+    height: 56px;
     text-align: center;
     line-height: 50px;
 }
@@ -198,4 +198,9 @@ form {
     position: absolute;
     top: 420px;
     left: 340px;
+}
+
+#hanTex:hover, #triTex:hover, #roTex:hover, #rpgTex:hover, #widTex:hover {
+    opacity: 0.8;
+
 }
